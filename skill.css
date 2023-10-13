@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: cursive;
 }
 
 
 .navbar {  
   display:flex;
+  width: 100%;
   padding:0px 20px 0px 20px;
   font-size: 18px;
   justify-content:space-evenly;
@@ -45,6 +46,7 @@ ul{
 }
 .logo img{
   border-radius: 50%;
+  
   width:90px;
   height:90px;
 }
@@ -75,7 +77,7 @@ body {
   width: 160px;
   border-radius: 50%;
   /* border:1px solid aquamarine; */
-  padding: 30px;
+  padding: 20px;
   box-shadow: 8px 8px 11px -1px rgba(248, 244, 244, 0.938),
     -6px -6px 10px -1px rgba(248, 244, 244, 0.938);
 }
@@ -127,6 +129,7 @@ body {
 }
 .name {
   font-size: 35px;
+  color:pink;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -137,6 +140,7 @@ body {
   position: absolute;
   top: 10%;
   z-index: 100;
+  color: aquamarine;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +157,7 @@ body {
   width: 160px;
   border-radius: 50%;
   /* border:1px solid aquamarine; */
-  padding: 30px;
+  padding: 20px;
   box-shadow: 6px 6px 10px -1px rgba(248, 244, 244, 0.938),
     -6px -6px 10px -1px rgba(248, 244, 244, 0.938);
 }
@@ -174,6 +178,8 @@ body {
 .names {
   font-size: 35px;
   display: flex;
+  color:pink;
+
   justify-content: center;
   z-index: 100;
   margin-top: 10px;
@@ -236,10 +242,11 @@ body {
   width: 160px;
   border-radius: 50%;
   /* border:1px solid aquamarine; */
-  padding: 30px;
+  padding: 20px;
   box-shadow: 6px 6px 10px -1px rgba(248, 244, 244, 0.938),
     -6px -6px 10px -1px rgba(248, 244, 244, 0.938);
 }
+
 .innerss {
   height: 150px;
   font-weight: 900;
@@ -257,6 +264,7 @@ body {
 .namess {
   font-size: 16px;
   display: flex;
+  color: pink;
   z-index: 100;
   justify-content: center;
   margin-top: 10px;
@@ -329,6 +337,56 @@ body {
 }
 .skill-html-css-js {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   margin-top: 40px;
+  margin-left: -270px;
+}
+@media(max-width:320px){
+  .navbar-links{
+    display: none;
+    width:100%;
+  }
+  .top{
+    font-size:13px;
+    margin-left:-140px;
+  }
+  .skill-html-css-js{
+    /* margin-left:-0px; */
+    width:200px;
+    display: grid;
+    margin-left: -250px;
+    /* gap:20px; */
+  }
+  .line-right .line{
+    width:350px;
+
+  }
+  .line-right .right{
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .outers{
+    width:160px;
+    padding: 10px;
+  }
+  .inners{
+    width:150px;
+    
+  }
+  .outer{
+    width:160px;
+    padding: 10px;
+
+  }
+  .inner{
+    width:150px;
+  }
+  .outerss{
+    width:160px;
+    padding: 10px;
+
+  }
+  .innerss{
+    width:150px;
+}
 }
