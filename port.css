@@ -122,6 +122,18 @@ padding:70px;
  .all{
   height: 200px;
  }
+ .logo{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.logo img{
+  width:20px;
+  height:20px;
+  padding: 10px;
+  margin-top:-8px;
+ 
+ }
  .pay{
   position: absolute;
   
@@ -152,3 +164,56 @@ padding:70px;
  }
 
 }
+@media (max-width:640px){
+ 
+ 
+  .navbar-links{
+   display:none;
+  
+  }
+  .logo img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+  }
+    .all{
+   height: 200px;
+  }
+  .pay{
+   position: absolute;
+   
+  }
+  .background img{
+    width:150px;
+    height:300px;
+  }
+  
+  
+  .name{
+   font-size:13px;
+  }
+  .dev{
+   font-size: 10px;
+  }
+  .pk{
+   font-size: 10px;;
+  }
+  .by{
+   font-size: 10px;
+  }
+  .clicknow{
+   padding:1px;
+   /* height:10px; */
+   font-size:10px;
+  }
+  .social{
+   height:20px;
+   width:20;
+   display:flex;
+  }
+  .logo{
+    position: absolute;
+    top:0;
+    left:0;
+  }
+ }

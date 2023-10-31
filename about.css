@@ -160,3 +160,39 @@ body{
     padding-bottom: 19px;
   }
 }
+  @media (max-width:640px){
+    .navbar-links{
+      display:none;
+    }
+    .logo{
+      position: absolute;
+      top:0;
+      left:0;
+    }
+    .logo img{
+      width:50px;
+      height:60px;
+      padding: 10px;
+      margin-top: 6px;
+      
+    }
+    .hello{
+      font-size: 15px;
+    }
+    .world{font-size: 13px;
+      padding-left: 15px;
+  
+    }
+    .line{
+      width:210px;
+    }
+    .para{
+      font-size: 13px;
+    }
+    .right{
+      font-size: 10px;
+      padding-bottom: 19px;
+    }
+  }
+
+  }

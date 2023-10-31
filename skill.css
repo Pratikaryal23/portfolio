@@ -390,3 +390,57 @@ body {
     width:150px;
 }
 }
+@media(max-width:640px){
+  .navbar-links{
+    display: none;
+    width:100%;
+  }
+  .top{
+    font-size:13px;
+    margin-left:-140px;
+  }
+  .skill-html-css-js{
+    /* margin-left:-0px; */
+    width:200px;
+    display: grid;
+    margin-left: -250px;
+    /* gap:20px; */
+  }
+  .line-right .line{
+    width:100%
+
+  }
+  .line-right .right{
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .outers{
+    width:160px;
+    padding: 10px;
+  }
+  .inners{
+    width:150px;
+    
+  }
+  .outer{
+    width:160px;
+    padding: 10px;
+
+  }
+  .inner{
+    width:150px;
+  }
+  .outerss{
+    width:160px;
+    padding: 10px;
+
+  }
+  .innerss{
+    width:150px;
+}
+.logo{
+  position: absolute;
+  top:0;
+  left:0;
+}
+}

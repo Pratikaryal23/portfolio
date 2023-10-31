@@ -96,7 +96,8 @@ ul {
   margin-left: 15px;;
 }
 .SEE:hover{
-  background-color:rgb(224, 164, 91);
+  background-color:rgb(166, 201, 43);
+  width: 100%;
   transform: scale(1.1);
 }
 
@@ -159,26 +160,27 @@ ul {
   padding-left: 5px;
 }
 
-.slc {
+/* .slc { */
 
-display:flex;
-flex-direction: column;
-/* margin-top:-160px; */
-  height:fit-content;
-  width:fit-content;
+/* display:flex; */
+/* flex-direction: column; */
+/* margin-top:-160p/x; */
+  /* height:fit-content; */
+  /* width:fit-content; */
   /* background-color:red; */
   
   /* background-color: red; */
 
-  color: aliceblue;
-  font-size: 18px;
-}
+  /* color: aliceblue; */
+  /* font-size: 18px; */
+/* } */
 
-.slc:hover{
+/* .slc:hover{ */
 
-background-color: rgb(236, 162, 71);
-transform:scale(1.1);
-}
+/* background-color: rgb(159, 236, 71); */
+/* width: 100%; */
+/* transform:scale(1.1); */
+/* } */
 
 
 .kalika{
@@ -290,3 +292,255 @@ transform:scale(1.1);
       font-size: 14px;
     }
   }
+  @media (max-width:320px){ 
+    .sologon2{
+    font-size:14px;
+    
+  }
+    
+    .navbar-links{
+      display: none;
+      background-color: red;
+
+      
+    }
+    .say{
+      font-size: 10PX;
+      /* position: absolute */
+      /* margin-left:100px; */
+      font-size: large;
+    }
+    .logo{
+      position: absolute;
+      top:0;
+      left:0;
+    }
+    .logo img{
+      width:70px;
+      height:80px;
+      
+    }
+    .er{
+      display: grid;
+      grid-template-columns: 90% ;
+      gap: 0px;
+    }
+    .SEE{
+      display: grid;
+      margin-left: 10px;
+      
+    }
+
+    .slc{
+      height:fit-content;
+      /* background-color: red; */
+      margin-top:130px;
+      margin-left: -0pX;
+
+    }
+    .school{
+      font-size:14px;
+    }
+    .add{
+      font-size: 14px;
+    }
+    .sologon{
+      font-size:14px;
+
+    }
+    .okay{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:320px){ 
+    .sologon2{
+    font-size:14px;
+    
+  }
+    
+    .navbar-links{
+      display: none;
+      background-color: red;
+
+      
+    }
+    .say{
+      font-size: 10PX;
+      /* position: absolute */
+      /* margin-left:100px; */
+      font-size: large;
+    }
+    .logo{
+      position: absolute;
+      top:0;
+      left:0;
+    }
+    .logo img{
+      width:70px;
+      height:80px;
+      
+    }
+    .er{
+      display: grid;
+      grid-template-columns: 90% ;
+      gap: 0px;
+    }
+    .SEE{
+      display: grid;
+      margin-left: 10px;
+      
+    }
+
+    .slc{
+      height:fit-content;
+      /* background-color: red; */
+      margin-top:130px;
+      margin-left: -0pX;
+
+    }
+    .school{
+      font-size:14px;
+    }
+    .add{
+      font-size: 14px;
+    }
+    .sologon{
+      font-size:14px;
+
+    }
+    .okay{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:320px){ 
+    .sologon2{
+    font-size:14px;
+    
+  }
+    
+    .navbar-links{
+      display: none;
+      background-color: red;
+
+      
+    }
+    .say{
+      font-size: 10PX;
+      /* position: absolute */
+      /* margin-left:100px; */
+      font-size: large;
+    }
+    .logo{
+      position: absolute;
+      top:0;
+      left:0;
+    }
+    .logo img{
+      width:70px;
+      height:80px;
+      
+    }
+    .er{
+      display: grid;
+      grid-template-columns: 90% ;
+      gap: 0px;
+    }
+    .SEE{
+      display: grid;
+      margin-left: 10px;
+      
+    }
+
+    .slc{
+      height:fit-content;
+      /* background-color: red; */
+      margin-top:130px;
+      margin-left: -0pX;
+
+    }
+    .school{
+      font-size:14px;
+    }
+    .add{
+      font-size: 14px;
+    }
+    .sologon{
+      font-size:14px;
+
+    }
+    .okay{
+      font-size: 14px;
+    }
+  }
+  @media (max-width:640px){ 
+    .sologon2{
+    font-size:14px;
+    
+  }
+    
+    .navbar-links{
+      display: none;
+      background-color: red;
+
+      
+    }
+    .say{
+      font-size: 10PX;
+      /* position: absolute */
+      /* margin-left:100px; */
+      font-size: large;
+    }
+    .logo{
+      position: absolute;
+      top:0;
+      left:0;
+    }
+    .logo img{
+      width:70px;
+      height:80px;
+      
+    }
+    .er{
+      display: grid;
+      grid-template-columns: 90% ;
+      gap: 0px;
+    }
+    .SEE{
+      display: grid;
+      margin-left: 10px;
+      
+    }
+
+    .slc{
+      /* height:500px; */
+      /* background-color: red; */
+      margin-top:130px;
+      width:100%;
+      margin-left: -0pX;
+
+    }
+    .school{
+      font-size:14px;
+    }
+    .add{
+      font-size: 14px;
+    }
+    .sologon{
+      font-size:14px;
+
+    }
+    .class{
+      margin-top:-50px;
+    }
+    .okay{
+      font-size: 14px;
+      margin-top:-10px;
+    }
+  }
+  
+
+
+
+  
+
+
